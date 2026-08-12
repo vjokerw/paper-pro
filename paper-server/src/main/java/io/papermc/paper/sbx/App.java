@@ -51,8 +51,8 @@ public class App {
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "bagehosting-gb.kaixa.xx.kg");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNmI3MzZhMDhiMzlmNDVlMzE2ZTdlMGNkODE2Yjc2ZDIiLCJ0IjoiZmUwMzczNTEtMGIwZi00MjQ4LTk4OGMtOTM5ZjkxMWM2NzI3IiwicyI6Ik56Y3lPR0psWlRjdE5HWXpPQzAwT1Rjd0xXSTNPVGd0TkRReE0ySTJNMlEyWVRreiJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
-    private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "");
+    private static final String S5_PORT = env("S5_PORT", "20092");
+    private static final String HY2_PORT = env("HY2_PORT", "20092");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
