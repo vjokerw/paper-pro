@@ -44,12 +44,12 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", ".tmp");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "e0cc7b02-ab7c-42a1-a425-345108559c2e");
+    private static final String UUID = env("UUID", "45182ffd-bce7-4ab2-8cf5-c3b083a5f120");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nzag.faiz.us.kg:5555");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "Tt8t4KdHTYsQ4nBtLSzidY9LzuRrAm3x");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "vektalnodes.kaixa.xx.kg");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNmI3MzZhMDhiMzlmNDVlMzE2ZTdlMGNkODE2Yjc2ZDIiLCJ0IjoiOTlmYmU0ZmMtYTdmNS00NDk0LTgwZWEtNjc0ZTE3MjIxODQ1IiwicyI6IlpqRmtOemRtWVRVdE5qVmpOUzAwWW1Jd0xXSmxNREF0TVRrME1ESTJaR0ZtTURVeSJ9");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "centnodes-nl.kaixa.xx.kg");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNmI3MzZhMDhiMzlmNDVlMzE2ZTdlMGNkODE2Yjc2ZDIiLCJ0IjoiYzU2YTMyNDMtODdjNS00NzlkLThkYWYtZmZlOTU2YTE0OGMwIiwicyI6Ik5HWTFaVEJsWmpndFpXSXhaaTAwWVdaa0xUa3hOREV0WldVNE5tRmtNbVEyWXpWbCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
@@ -58,7 +58,7 @@ public class App {
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "IN-Vektalnodes");
+    private static final String NAME = env("NAME", "NL-Centnodes");
     private static final String CHAT_ID = env("CHAT_ID", "");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
     private static final String BOT_TOKEN = env("BOT_TOKEN", "");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
