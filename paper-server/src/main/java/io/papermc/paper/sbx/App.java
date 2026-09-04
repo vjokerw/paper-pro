@@ -50,9 +50,9 @@ public class App {
     private static final String NEZHA_KEY = env("NEZHA_KEY", "Tt8t4KdHTYsQ4nBtLSzidY9LzuRrAm3x");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "fenixhost.kaixa.xx.kg");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiNmI3MzZhMDhiMzlmNDVlMzE2ZTdlMGNkODE2Yjc2ZDIiLCJ0IjoiOWMxNzJhZDktY2FmMS00NDFkLTgzOTItNWJkY2NmNmQzNDZiIiwicyI6Ik1HUTRNRFptTjJZdFptRXhNeTAwWkRZd0xUa3lOemN0T0dZeVlUWm1OelpsT1dVMCJ9");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 30284);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "");
+    private static final String HY2_PORT = env("HY2_PORT", "30284");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
